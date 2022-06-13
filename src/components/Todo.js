@@ -8,7 +8,7 @@ const Todo = ({ description, done, onChangeTodo, onDeleteTodo, index }) => {
         className={
           done
             ? "flex justify-between items-center p-2 bg-green-600"
-            : "flex justify-between items-center p-2 bg-red-500"
+            : "flex justify-between items-center p-2 bg-red-500" 
         }
       >
         <h1

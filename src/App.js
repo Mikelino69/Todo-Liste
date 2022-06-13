@@ -14,10 +14,9 @@ export function App() {
     <Router>
       <div className="App">
         <Navigation/>
-          <Routes>
-          <Route path="/"element={"Home"}/>
-         <Route path="/"element={"About"}/>
-         </Routes>
+        <Home/>
+        <About/>
+          
       
          
         <h1
@@ -26,6 +25,7 @@ export function App() {
       text-blue-800 
       text-2xl mt-20"
         >
+          
           <TodoList />
         </h1>
        
